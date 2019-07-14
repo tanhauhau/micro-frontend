@@ -9,6 +9,7 @@
     "node": ">=10.16.0"
   },
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "start": "node scripts/start-dev-server.js",
     "build": "lerna bootstrap && lerna run build && node scripts/post-build.js"
   },
