@@ -39,7 +39,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      __DISCOVERY_BASE_URL__: isProduction ? '/' : '"/cdn"',
+      __DISCOVERY_BASE_URL__: isProduction ? '"/"' : '"/cdn/"',
     }),
     new HtmlWebpackPlugin(),
   ],

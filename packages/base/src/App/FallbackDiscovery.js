@@ -22,7 +22,7 @@ async function discoverNewRoutes(location) {
   const match = location.match(/^\/([^/]+)/);
   if (match) {
     const response = await window.fetch(
-      BASE_URL + `/${match[1]}/app.json`
+      BASE_URL + `${match[1]}/app.json`
     );
     if (response.status !== 200) {
       throw new Error('Manifest not found for match[1]');
