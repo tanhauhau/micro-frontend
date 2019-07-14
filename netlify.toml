@@ -4,5 +4,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/packages/base/dist/index.html"
+  to = "/base/index.html"
   status = 200

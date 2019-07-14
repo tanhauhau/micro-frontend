@@ -4,7 +4,7 @@
   "author": "Tan Li Hau <lhtan93@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --watch",
+    "dev": "NODE_ENV=development webpack --watch",
     "build": "NODE_ENV=production webpack"
   },
   "devDependencies": {

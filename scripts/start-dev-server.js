@@ -15,7 +15,7 @@ app.use(async (req, res) => {
   const url = req.url === '/' ? 'index.html' : req.url;
 
   if (url.startsWith('/cdn/')) {
-    return serveFile(res, path.join(packageFolder, url.replace(/^\/cdn/, '')));
+    return serveFile(res, path.join(packageFolder, url.replace(/^\/cdn\/([^\/]+)/, '$1/dist')));
   }
 
   serveFile(res, path.join(baseFolder, url), indexHtml);

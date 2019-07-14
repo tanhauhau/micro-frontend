@@ -1,11 +1,13 @@
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   mode: process.env.NODE_ENV,
   output: {
     filename: 'bundle.js',
-    publicPath: '/cdn/base/dist/',
+    publicPath: isProduction ? '/base/' : '/cdn/base/',
   },
   module: {
     rules: [
@@ -37,8 +39,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      __DISCOVERY_BASE_URL__: '"/cdn"',
-      __BASE_URL__: '"/cdn/base/dist"',
+      __DISCOVERY_BASE_URL__: isProduction ? '/' : '"/cdn"',
     }),
     new HtmlWebpackPlugin(),
   ],

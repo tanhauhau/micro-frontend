@@ -8,7 +8,7 @@ module.exports = {
   mode: process.env.NODE_ENV,
   output: {
     filename: 'bundle.js',
-    publicPath: isProduction ? 'TODO' : '/cdn/food/dist/',
+    publicPath: isProduction ? '/food/' : '/cdn/food/',
   },
   module: {
     rules: [
@@ -46,7 +46,7 @@ module.exports = {
       },
     ]),
     new webpack.DefinePlugin({
-      __BASE_URL__: isProduction ? 'TODO' : '"/cdn/food/dist/"',
+      __BASE_URL__: isProduction ? '"/food/"' : '"/cdn/food/"',
     }),
     new AssetManifestPlugin(),
   ],
