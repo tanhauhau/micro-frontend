@@ -1,0 +1,23 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=10.16.0"
+  },
+  "scripts": {
+    "start": "node scripts/start-dev-server.js",
+    "build": "lerna bootstrap && lerna run build && node scripts/post-build.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0"
+  },
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  }
+}

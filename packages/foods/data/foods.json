@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Bak Kut Teh",
+    "description": "Bak Kut Teh has been around in Singapore since we were still a developing country and deserves its recognition as a simple, humble dish. Most of the Bak Kut Teh here are of the pepper variety with mild use of herbs like star anise.\nChoose pork rib meat in your soup for a more tender bite. The other variant would be the Klang Bak Kut Teh, a dark and highly flavoured herbal soup originating from Malaysia."
+  },
+  {
+    "id": 2,
+    "name": "Wanton Mee",
+    "description": "This Singapore wanton noodle dish was probably influenced by Hong Kong cuisine, but has become entrenched in our culture over the years. The Singapore version is typically eaten ‘dry’, drenched with some light sweet sauce, slices of pork char siew and wanton dumplings filled with pork, with a small bowl of soup on the side."
+  },
+  {
+    "id": 3,
+    "name": "Fried Carrot Cake",
+    "description": "This is a Teochew dish popular in both Singapore and Malaysia. Variants include the ‘black’ version, which has sweet sauce (molasses) added, or a crispy version with the cake fried on top of a beaten egg to create a crust and chunks of cake. Most commonly seen in Singapore though is the chopped up version with individual radish cake cubes."
+  },
+  {
+    "id": 4,
+    "name": "Kaya Toast & Soft-Boiled Eggs",
+    "description": "The one and only traditional Singaporean breakfast – Kaya Toast with Soft-Boiled Eggs. The traditional bread is an old school rectangular white loaf, toasted on a bread grill, lathered with coconut or egg kaya, then slapped with a thick slice of SCS butter that slowly melts within two slices of warm bread.\nFor the eggs, they’re usually placed in a large hot water metal pot and covered with a plate. Then you time it and take out the eggs when they’re ready (about 7 – 10 minutes depending on how well you like your eggs)."
+  },
+  {
+    "id": 5,
+    "name": "Crabs (Chilli Or Pepper)",
+    "description": "The two most famous styles of cooking crabs in Singapore are with a sweet, spicy tomato-ish chilli sauce, or with black pepper sauce. Chilli crabs are usually eaten along with fried mantous (buns), which are dipped in the luscious chilli sauce."
+  },
+  {
+    "id": 6,
+    "name": "Laksa",
+    "description": "Laksa is a dish created from the merging of Chinese and Malay cuisine, otherwise known as Peranakan culture. There are two main types of Laksa – Curry Laksa and Asam Laksa.\nCurry Laksa is more predominant in Singapore, while Asam Laksa is more commonly found in Malaysian regions like Penang. In fact there are loads of variants of Laksa, differing in the type of fish used, broth and even noodles."
+  },
+  {
+    "id": 7,
+    "name": "Curry Fish Head",
+    "description": "Either half a head or the whole head of a red snapper is stewed in curry with assorted vegetables like lady’s finger (okra) and brinjal (aubergine). The Indian-style of curry has heavier spices and flavours, while the Chinese-style is lighter and sweeter. Variants include the Assam-style fish head curry, which has an added tinge of sourness from tamarind fruit (assam)."
+  }
+]

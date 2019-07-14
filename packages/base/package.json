@@ -1,0 +1,31 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --watch",
+    "build": "NODE_ENV=production webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}

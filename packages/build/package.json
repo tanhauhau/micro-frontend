@@ -1,0 +1,9 @@
+{
+  "name": "@micro-fe/build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tan Li Hau <lhtan93@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {}
+}
